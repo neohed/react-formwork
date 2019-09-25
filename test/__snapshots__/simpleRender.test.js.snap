@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test a simple render 1`] = `
+<div>
+  <form
+    name="simple-form"
+  >
+    <div>
+      <label
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <input
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      
+    </div>
+    <div>
+      <label
+        htmlFor="email"
+      >
+        Email
+      </label>
+      <input
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      
+    </div>
+    <button
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

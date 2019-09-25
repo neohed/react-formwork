@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render a form with CSS styles and custom attributes 1`] = `
+<div>
+  <form
+    name="form01"
+    onSubmit={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "border": "2px solid red",
+        }
+      }
+    >
+      <p>
+        Given Name:
+      </p>
+      <p>
+        name
+      </p>
+      <p>
+        <input
+          data-entityId="101"
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="David"
+        />
+      </p>
+    </div>
+    <div>
+      <label
+        htmlFor="email"
+      >
+        Email
+      </label>
+      <input
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value="a@b.c"
+      />
+      
+    </div>
+    <div>
+      <label
+        htmlFor="jobTitle"
+      >
+        Job Title
+      </label>
+      <input
+        name="jobTitle"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value="Developer"
+      />
+      
+    </div>
+    <div>
+      <label
+        htmlFor="nationalInsuranceNumber"
+      >
+        National Insurance Number
+      </label>
+      <input
+        name="nationalInsuranceNumber"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value="abc123"
+      />
+      
+    </div>
+    <div>
+      <label
+        htmlFor="heardOfUs"
+      >
+        Heard Of Us
+      </label>
+      <select
+        data={
+          Array [
+            Object {
+              "key": 1,
+              "value": "Radio",
+            },
+            Object {
+              "key": 2,
+              "value": "TV",
+            },
+            Object {
+              "key": 3,
+              "value": "Web",
+            },
+          ]
+        }
+        defaultValue={-1}
+        name="heardOfUs"
+        onChange={[Function]}
+      >
+        
+        <option
+          value={1}
+        >
+          Radio
+        </option>
+        <option
+          value={2}
+        >
+          TV
+        </option>
+        <option
+          value={3}
+        >
+          Web
+        </option>
+      </select>
+      
+    </div>
+    <div>
+      <label
+        htmlFor="Industry"
+      >
+        Industry
+      </label>
+      <ul
+        style={
+          Object {
+            "listStyleType": "none",
+          }
+        }
+      >
+        <li>
+          <input
+            data={
+              Array [
+                Object {
+                  "key": 1,
+                  "value": "IT",
+                },
+                Object {
+                  "key": 2,
+                  "value": "Medicine",
+                },
+                Object {
+                  "key": 3,
+                  "value": "Leisure",
+                },
+              ]
+            }
+            name="Industry"
+            onChange={[Function]}
+            type="radio"
+            value={1}
+          />
+           
+          IT
+        </li>
+        <li>
+          <input
+            data={
+              Array [
+                Object {
+                  "key": 1,
+                  "value": "IT",
+                },
+                Object {
+                  "key": 2,
+                  "value": "Medicine",
+                },
+                Object {
+                  "key": 3,
+                  "value": "Leisure",
+                },
+              ]
+            }
+            name="Industry"
+            onChange={[Function]}
+            type="radio"
+            value={2}
+          />
+           
+          Medicine
+        </li>
+        <li>
+          <input
+            data={
+              Array [
+                Object {
+                  "key": 1,
+                  "value": "IT",
+                },
+                Object {
+                  "key": 2,
+                  "value": "Medicine",
+                },
+                Object {
+                  "key": 3,
+                  "value": "Leisure",
+                },
+              ]
+            }
+            name="Industry"
+            onChange={[Function]}
+            type="radio"
+            value={3}
+          />
+           
+          Leisure
+        </li>
+      </ul>
+      
+    </div>
+    <div>
+      <p>
+        Can we get an individual element by name?
+      </p>
+      <div>
+        <label
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="a@b.c"
+        />
+        
+      </div>
+    </div>
+    <button
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <pre>
+    {
+  "name": "David",
+  "email": "a@b.c",
+  "jobTitle": "Developer",
+  "nationalInsuranceNumber": "abc123"
+}
+  </pre>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render a form with data binding 1`] = `
+<form>
+  <button
+    disabled={false}
+    type="submit"
+  >
+    Submit
+  </button>
+  <pre>
+    {
+  "name": "David",
+  "email": "a@b.c",
+  "jobTitle": "Developer"
+}
+  </pre>
+</form>
+`;

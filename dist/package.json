@@ -1,0 +1,21 @@
+{
+  "name": "react-formwork",
+  "version": "1.5.3",
+  "description": "Generate React forms from the simplest object definitions.",
+  "keywords": [
+    "react",
+    "forms",
+    "validation"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davesnotes/react-formwork"
+  },
+  "author": "David Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^16.7.0"
+  }
+}

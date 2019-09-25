@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render a form with a reused template 1`] = `
+<div>
+  <form
+    name="form01"
+  >
+    <div
+      style={
+        Object {
+          "border": "2px solid red",
+        }
+      }
+    >
+      <p>
+        Given Name:
+      </p>
+      <p>
+        name
+      </p>
+      <p>
+        <input
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="David"
+        />
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "border": "2px solid red",
+        }
+      }
+    >
+      <p>
+        Email
+      </p>
+      <p>
+        email
+      </p>
+      <p>
+        <input
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="a@b.c"
+        />
+      </p>
+    </div>
+    <button
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;
